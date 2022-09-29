@@ -1,0 +1,28 @@
+body{
+ display: flex;
+ justify-content: center;
+  margin-top: 3%;
+}
+
+
+#main{
+ border: 2px solid black;
+ display: grid;
+ grid-template-columns: 40px 40px 40px 40px;
+ width: 166px;
+ padding: 2%;
+ row-gap: 3px;
+ column-gap: 2px;
+}
+#input_box{
+ width: 166px;
+ border: 2px solid black;
+ padding: 2%;
+}
+
+input[type=number]{
+    -webkit-appearance: none;
+     -moz-appearance: textfield;
+     outline: none;
+     width: 95%;
+}
